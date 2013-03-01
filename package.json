@@ -1,7 +1,7 @@
 {
   "name": "grunt-doccoh",
   "description": "Grunt Doccoh plugin. A fork of grunt-docco.",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "homepage": "https://github.com/rozmiarek/grunt-doccoh",
   "author": {
     "name": "Tomek Rozmiarek"
@@ -25,23 +25,32 @@
       "name": "David Souther",
       "email": "davidsouther@gmail.com",
       "url": "http://www.davidsouther.com"
+    },
+    {
+      "name": "Markus M. May",
+      "email": "mmay@javafreedom.org",
+      "url": "http://www.javafreedom.org"
     }
   ],
   "engines": {
-    "node": "*"
+    "node": "~0.8"
   },
   "scripts": {
     "test": "grunt test"
   },
   "dependencies": {
-    "grunt-contrib-clean": "~0.3.1",
-    "grunt-lib-contrib": "~0.3.0",
-    "doccoh": "~0.4.0"
+    "grunt-contrib-clean": "~0.4",
+    "doccoh": "~0.4"
   },
   "devDependencies": {
-    "grunt": "~0.3.9"
+    "grunt": "~0.4",
+    "grunt-contrib-jshint": "~0.2",
+    "grunt-contrib-nodeunit": "~0.1",
+    "grunt-contrib-watch": "~0.3",
+    "grunt-contrib-clean": "~0.4",
+    "rimraf": "~2.1"
   },
   "keywords": [
-    "gruntplugin docs"
+    "gruntplugin docs doccoh"
   ]
 }
